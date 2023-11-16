@@ -1,0 +1,34 @@
+{
+  "name": "kraken-android-test-kata",
+  "version": "1.0.0",
+  "description": "This is a practice, learn and understanding project to use kraken 🐙 in order to create tests 🧪 to an android application 🤖📱",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/kraken-node/bin/kraken-node run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zearkiatos/kraken-android-test-kata.git"
+  },
+  "keywords": [
+    "mobile",
+    "tests",
+    "kraken",
+    "e2e",
+    "interface",
+    "ui",
+    "android",
+    "cucumber",
+    "givenwhenthen",
+    "appium"
+  ],
+  "author": "Pedro Capriles <caprilespe@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zearkiatos/kraken-android-test-kata/issues"
+  },
+  "homepage": "https://github.com/zearkiatos/kraken-android-test-kata#readme",
+  "dependencies": {
+    "kraken-node": "^1.0.24"
+  }
+}
