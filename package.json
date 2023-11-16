@@ -20,7 +20,8 @@
     "android",
     "cucumber",
     "givenwhenthen",
-    "appium"
+    "appium",
+    "Gherkin"
   ],
   "author": "Pedro Capriles <caprilespe@outlook.com>",
   "license": "MIT",

@@ -2,6 +2,7 @@ const { After, Before } = require('@cucumber/cucumber');
 const { AndroidClient } = require('kraken-node');
 
 Before(async function () {
+  console.log(this.userId)
   this.deviceClient = new AndroidClient(
     this.device.id, this.apkPath,
     this.apkPackage, this.apkLaunchActivity,
